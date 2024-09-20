@@ -4,6 +4,8 @@ body {
   text-align: center;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size:x-large;
 }
 
 .estructura {
@@ -22,35 +24,70 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #cd5c5c;
-  width: 66%;
+  width: 61%;
   padding: 1vh;
   height: 60vh;
+  text-align: center;
 }
 
 header {
   background-color: #cd5c5c;
   margin-bottom: 1%;
-  height: 5vh;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
   background-color: #cd5c5c;
   margin-top: 1%;
-  height: 5vh;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav {
   background-color: #cd5c5c;
-  width: 15%;
+  width: 17%;
   margin-right: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 aside {
   background-color: #cd5c5c;
-  width: 15%;
+  width: 17%;
   margin-left: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.section header, article, .section footer {
+.section header {
   background-color: #bdb76b;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1vh;
+}
+
+.section footer {
+  background-color: #bdb76b;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1vh;
+}
+
+article{
+  background-color: #bdb76b;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
