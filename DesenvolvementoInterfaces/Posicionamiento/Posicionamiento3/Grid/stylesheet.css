@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-gap: 1vh;
+    border-style: solid;
+    border-color: black;
+    height: 50vh;
+    width: 60vh;
+    border-width: 1px;
+    padding: 1vh;
+}
+
+.verde {
+    grid-column-start: 1;
+    grid-row: 1 / span 4;
+    background-color: green;
+}
+
+.rojo {
+    grid-column-start: 1;
+    grid-row: 5 / span 4;
+    background-color: red;
+}
+.azul {
+    grid-column-start: 2;
+    grid-row: 1 / span 2;
+    background-color:blue;
+}
+
+.morado {
+    grid-column-start: 2;
+    grid-row: 3 / span 6;
+    background-color:blueviolet;
+}

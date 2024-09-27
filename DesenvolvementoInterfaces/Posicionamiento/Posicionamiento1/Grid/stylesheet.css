@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    border-style: dotted;
+    border-color: chocolate;
+    height: 50vh;
+    width: 100%;
+    border-width: 1px;
+}
+
+.azul {
+    grid-column-start: 1;
+    background-color: blue;
+    width: 100%;
+}
+
+.blanco {
+    grid-column-start: 2;
+    background-color: white;
+    width: 100%;
+}
+
+.rojo {
+    grid-column-start: 3;
+    background-color: red;
+    width: 100%;
+}

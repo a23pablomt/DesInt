@@ -1,0 +1,46 @@
+.container {
+    border-style: solid;
+    border-color: black;
+    height: 51vh;
+    width: 61vh;
+    border-width: 1px;
+    padding: 1vh;
+}
+
+.izquierda{
+    float:left;
+    width: 30vh;
+    height: 50vh;
+    margin-right: 1vh;
+}
+
+.derecha{
+    float: right;
+    width: 30vh;
+    height: 50vh;
+}
+
+.verde {
+    background-color: green;
+    width: 100%;
+    height: 25vh;
+    margin-bottom: 1vh;
+}
+
+.rojo {
+    background-color: red;
+    width: 100%;
+    height: 25vh;
+}
+.azul {
+    background-color:blue;
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 1vh;
+}
+
+.morado {
+    background-color:blueviolet;
+    width: 100%;
+    height: 40vh;
+}

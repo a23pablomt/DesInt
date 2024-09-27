@@ -1,0 +1,35 @@
+.container {
+    box-sizing: content-box;
+    border-style: dotted;
+    border-color: chocolate;
+    height: 50vh;
+    width: 100vh;
+    border-width: 1px; 
+}
+
+.inner{
+    float: left;
+    width: 66.66%;
+    height: 50vh;
+}
+
+.azul {
+    float: left;
+    background-color: blue;
+    width: 50%;
+    height: 50vh;
+}
+
+.blanco {
+    float: right;
+    background-color: white;
+    width: 50%;
+    height: 50vh;
+}
+
+.rojo {
+    float: right;
+    background-color: red;
+    width: 33.33%;
+    height: 50vh;
+}

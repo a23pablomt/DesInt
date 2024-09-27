@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: dotted;
+    border-color: chocolate;
+    height: 50vh;
+    width: 100%;
+    border-width: 1px;
+    padding: 5vh;
+}
+
+.amarillo {
+    background-color: burlywood;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.azul {
+    background-color:deepskyblue;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: orange;
+}

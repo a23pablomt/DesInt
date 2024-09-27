@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: dotted;
+    border-color: chocolate;
+    height: 50vh;
+    width: 100%;
+    border-width: 1px;
+}
+
+.azul {
+    background-color: blue;
+    width: 100%;
+}
+
+.blanco {
+    background-color: white;
+    width: 100%;
+}
+
+.rojo {
+    background-color: red;
+    width: 100%;
+}
